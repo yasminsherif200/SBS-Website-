@@ -1,0 +1,78 @@
+<!-- Navbar Start -->
+<header class="sticky top-0 bg-white shadow-sm z-50">
+  <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+    <!-- اللوجو -->
+    <div class="flex items-center">
+      <img src="https://i.ibb.co/3yDZTSfF/sbs-logo.webp" alt="شباب بتساعد شباب Logo" class="h-16">
+    </div>
+
+    <!-- Menu عادي -->
+    <nav class="hidden md:flex space-x-6" id="navbar">
+      <a href="#home" class="nav-link">الرئيسية</a>
+      <a href="#about" class="nav-link">عن شباب بتساعد شباب</a>
+      <a href="#inspirational-journey" class="nav-link">عن مسيرتنا</a>
+      <a href="#opportunities" class="nav-link">الفرص</a>
+      <a href="#events" class="nav-link">الفعاليات</a>
+      <a href="#team" class="nav-link">الفريق</a>
+      <a href="#resources-intro" class="nav-link">الموارد</a>
+      <a href="#contact" class="nav-link">تواصل معنا</a>
+    </nav>
+
+    <!-- زرار الموبايل -->
+    <div class="md:hidden">
+      <button id="mobile-menu-button" class="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-coral">
+        <i class="fas fa-bars text-2xl text-navy"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- قائمة الموبايل -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+    <nav class="flex flex-col space-y-2 p-4">
+      <a href="#home" class="nav-link">الرئيسية</a>
+      <a href="#about" class="nav-link">عن شباب بتساعد شباب</a>
+      <a href="#inspirational-journey" class="nav-link">عن مسيرتنا</a>
+      <a href="#opportunities" class="nav-link">الفرص</a>
+      <a href="#events" class="nav-link">الفعاليات</a>
+      <a href="#team" class="nav-link">الفريق</a>
+      <a href="#resources-intro" class="nav-link">الموارد</a>
+      <a href="#contact" class="nav-link">تواصل معنا</a>
+    </nav>
+  </div>
+
+  <style>
+    .nav-link { padding:0.5rem 1rem; font-size:1rem; font-weight:500; color:#002d62; transition: color 0.3s; }
+    .nav-link:hover, .nav-link.active { color:#00A9A9; }
+  </style>
+</header>
+<!-- Navbar End -->
+
+<!-- Scripts Start -->
+<script>
+const navLinks = document.querySelectorAll('.nav-link');
+navLinks.forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.querySelector(link.getAttribute('href'));
+    target.scrollIntoView({ behavior: 'smooth' });
+    if (window.innerWidth < 768) document.getElementById('mobile-menu').classList.add('hidden');
+  });
+});
+
+const mobileButton = document.getElementById('mobile-menu-button');
+const mobileMenu = document.getElementById('mobile-menu');
+mobileButton.addEventListener('click', () => { mobileMenu.classList.toggle('hidden'); });
+
+const sections = document.querySelectorAll('section[id]');
+window.addEventListener('scroll', () => {
+  let scrollPos = window.scrollY + 100;
+  sections.forEach(section => {
+    if (scrollPos >= section.offsetTop && scrollPos < section.offsetTop + section.offsetHeight) {
+      navLinks.forEach(link => link.classList.remove('active'));
+      const activeLink = document.querySelector(`.nav-link[href="#${section.id}"]`);
+      if(activeLink) activeLink.classList.add('active');
+    }
+  });
+});
+</script>
+<!-- Scripts End -->
