@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gmail Bulk Sender</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h2>Gmail Bulk Sender</h2>
+<form id="sendForm" enctype="multipart/form-data">
+  <label>Emails (comma/newline separated):</label><br>
+  <textarea name="emailsText" rows="5" cols="50"></textarea><br><br>
+
+  <label>Or CSV file (with 'email' column or first column):</label><br>
+  <input type="file" name="csvFile" accept=".csv"><br><br>
+
+  <label>Subject:</label><br>
+  <input type="text" name="subject"><br><br>
+
+  <label>Body (HTML allowed):</label><br>
+  <textarea name="body" rows="10" cols="50"></textarea><br><br>
+
+  <label>Images (optional, up to 2):</label><br>
+  <input type="file" name="images" accept="image/*" multiple><br><br>
+
+  <button type="submit">Send Emails</button>
+</form>
+
+<div id="status"></div>
+
+<script>
+document.getElementById('sendForm').addEventListener('submit', async e => {
+  e.preventDefault();
+  const form = e.target;
+  const data = new FormData(form);
+  const res = await fetch('/send', { method: 'POST', body: data });
+  const json = await res.json();
+  document.getElementById('status').innerText = JSON.stringify(json, null, 2);
+});
+</script>
+</body>
+</html>
