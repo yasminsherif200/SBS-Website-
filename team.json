@@ -1,7 +1,7 @@
 {
     "founder":{
         "name":"محسن السيد",
-        "image":"src/mohsen_el_sayed.png",
+        "image":"https://i.ibb.co/h1ynFGYv/mohsen-el-sayed.png" ,
         "bio":"مؤسس شباب بتساعد شباب | المدير التنفيذي",
         "social":{
             "facebook":"https://www.facebook.com/Mohsen.E.Sayed.12",
@@ -19,7 +19,7 @@
             "title":"نائبة المدير التنفيذي",
             "department":"إدارة",
             "role":"council",
-            "image":"src/board_photos/roqia_wael.webp",
+            "image":"https://i.ibb.co/C5VV1W1v/roqia-wael.webp",
             "bio":"المطورة و الخبيرة الاستراتيجية للفريق.",
             "social":{
                 "facebook":"https://www.facebook.com/profile.php?id=100006153074460",
@@ -33,7 +33,7 @@
             "title":"مدير المحتوي",
             "department":"إدارة",
             "role":"council",
-            "image":"src/board_photos/mo_tamer.webp",
+            "image":"https://i.ibb.co/cGWwLGh/mo-tamer.webp" ,
             "bio":"المطور و المسئول عن المحتوي عبر منصاتنا المختلفة.",
             "social":{
                 "facebook":"https://www.facebook.com/profile.php?id=100006880662133",
@@ -49,7 +49,7 @@
             "title":"نائبة مدير المحتوي",
             "department":"إدارة",
             "role":"council",
-            "image":"src/board_photos/nada_kotkat.webp",
+            "image":"https://i.ibb.co/pBCfDWbG/nada-kotkat.webp",
             "bio":"المطورة للمحتوي عبر منصاتنا المختلفة.",
             "social":{
                 "facebook":"https://www.facebook.com/share/1DNbwoi6Tv",
@@ -63,7 +63,7 @@
             "title":"مديرة العمليات التشغيلية",
             "department":"إدارة",
             "role":"council",
-            "image":"src/board_photos/salma_ahmed.webp",
+            "image":"https://i.ibb.co/cSc9JRDk/salma-ahmed.webp",
             "bio":"المطورة و المسئولة عن سريان جميع أنظمتنا بشكل صحيح و سلامة البيئة الداخلية للأعضاء و القادة داخل الفريق.",
             "social":{
                 "facebook":"https://www.facebook.com/profile.php?id=100017497487145",
@@ -78,7 +78,7 @@
             "title":"نائبة مديرة العمليات التشغيلية",
             "department":"إدارة",
             "role":"council",
-            "image":"src/board_photos/faten_samer.webp",
+            "image":"https://i.ibb.co/HpLwb3hk/faten-samer.webp",
             "bio":"المطورة لجميع أنظمتنا بشكل صحيح و سلامة البيئة الداخلية للأعضاء و القادة داخل الفريق.",
             "social":{
                 "facebook":"https://www.facebook.com/share/iB743Q8UTsC3fXAM",
@@ -92,7 +92,7 @@
             "title":"رئيس قسم كتابة المحتوى",
             "department":"Content Writing",
             "role":"leader",
-            "image":"src/leader_photos/omar_hesham.webp",
+            "image":"https://i.ibb.co/R4y1TVdJ/omar-hesham.webp" ,
             "bio":"يساعد في كتابة وتدقيق المحتوى للمنصات المختلفة.",
             "social":{
                 "facebook":"https://www.facebook.com/profile.php?id=100063121360104",
@@ -106,7 +106,7 @@
             "title":"مسؤول الموارد البشرية",
             "department":"HR",
             "role":"leader",
-            "image":"src/leader_photos/ahmed_ashour.webp",
+            "image":"https://i.ibb.co/XfWqg5GY/ahmed-ashour.webp" ,
             "bio":"يقود قسم الموارد البشرية وتطوير الفريق.",
             "social":{
                 "facebook":"https://www.facebook.com/profile.php?id=100030673351350&mibextid=ZbWKwL",
@@ -120,7 +120,7 @@
             "title":"رئيس القسم الإبداعي",
             "department":"Creative",
             "role":"leader",
-            "image":"src/leader_photos/mariam_ibrahim.webp",
+            "image":"https://i.ibb.co/8nWP1f22/mariam-ibrahim.webp",
             "bio":"تشرف علي تطوير الأفكار والمحتوى الإبداعي.",
             "social":{
                 "facebook":"https://www.facebook.com/mariem.ebrahim.184",
@@ -135,7 +135,7 @@
             "title":"مسؤول العلاقات العامة",
             "department":"PR",
             "role":"leader",
-            "image":"src/leader_photos/farah_elgendy.webp",
+            "image":"https://i.ibb.co/5XD6jpr8/farah-elgendy.webp",
             "bio":"مسؤولة عن العلاقات العامة والتواصل الإعلامي.",
             "social":{
                 "facebook":"https://www.facebook.com/share/14vSFHFA9H/?mibextid=kFxxJD",
@@ -150,7 +150,7 @@
             "title":"رئيس قسم التصميم الجرافيكي",
             "department":"Graphic Design",
             "role":"leader",
-            "image":"src/leader_photos/ahmed_alnazer.webp",
+            "image":"https://i.ibb.co/HDZG8Ts5/ahmed-alnazer.webp"  ,
             "bio":"يقود فريق التصميم ويشرف على الهوية البصرية.",
             "social":{
                 "facebook":"https://www.facebook.com/elnazer01",
@@ -165,7 +165,7 @@
             "title":"مسؤولة التسويق",
             "department":"Marketing",
             "role":"leader",
-            "image":"src/leader_photos/sara_eid.webp",
+            "image":"https://i.ibb.co/zhGGwhMs/sara-eid.webp",
             "bio":"تقود استراتيجيات التسويق للمبادرة.",
             "social":{
                 "facebook":"https://www.facebook.com/profile.php?id=100050799424042"
@@ -178,7 +178,7 @@
             "title":"مسؤولة إدارة المجتمع",
             "department":"Community Moderator",
             "role":"leader",
-            "image":"src/leader_photos/fatma_gamal.webp",
+            "image":"https://i.ibb.co/1JzNnMVX/fatma-gamal.webp" ,
             "bio":"تشرف على إدارة وتنظيم مجتمع المبادرة.",
             "social":{
                 "facebook":"https://www.facebook.com/fatma.gamal.90410834"
@@ -191,7 +191,7 @@
             "title":"نائب مسؤول الموارد البشرية",
             "department":"HR",
             "role":"leader",
-            "image":"src/leader_photos/mahmoud_mira.webp",
+            "image":"https://i.ibb.co/0Rn14Lz0/mahmoud-mira.webp" ,
             "bio":"يدعم عمليات الموارد البشرية وتطوير الفريق.",
             "social":{
                 "facebook":"https://www.facebook.com/mahmoudmira5600",
@@ -205,7 +205,7 @@
             "title":"نائبة مسؤول الموارد البشرية",
             "department":"HR",
             "role":"leader",
-            "image":"src/leader_photos/yasmin_mohamed.webp",
+            "image":"https://i.ibb.co/9mtrj8qx/yasmin-mohamed.webp" ,
             "bio":"تدعم عمليات الموارد البشرية وتطوير الفريق.",
             "social":{
                 "facebook":"https://www.facebook.com/jasminezakariaabouashier?mibextid=ZbWKwL",
@@ -219,7 +219,7 @@
             "title":"نائبة مسؤولة إدارة المجتمع",
             "department":"Community Moderator",
             "role":"leader",
-            "image":"src/leader_photos/shahd_saad.webp",
+            "image":"https://i.ibb.co/YBN4h96J/shahd-saad.webp",
             "bio":"تساعد في إدارة التفاعل ودعم أعضاء المجتمع.",
             "social":{
                 "facebook":"https://www.facebook.com/profile.php?id=61550007293460&mibextid=ZbWKwL",
@@ -233,7 +233,7 @@
             "title":"نائبة رئيس قسم التصميم الجرافيكي",
             "department":"Graphic Design",
             "role":"leader",
-            "image":"src/leader_photos/ayat_ahmed.webp",
+            "image":"https://i.ibb.co/6c9TCgnX/ayat-ahmed.webp" ,
             "bio":"تدعم رئيس قسم التصميم في الإشراف على الهوية البصرية.",
             "social":{
                 "facebook":"https://www.facebook.com/profile.php?id=100051202865329&mibextid=ZbWKwL",
@@ -247,7 +247,7 @@
             "title":"نائبة رئيسة قسم التسويق",
             "department":"Marketing",
             "role":"leader",
-            "image":"src/leader_photos/hagar_mohamed.webp",
+            "image":"https://i.ibb.co/HpbJvfLF/hagar-mohamed.webp",
             "bio":"تساعد علي تطبيق استراتجيات التسويق في المبادرة",
             "social":{
                 "facebook":"https://www.facebook.com/share/18qdygqr3s",
@@ -262,7 +262,7 @@
             "title":"",
             "department":"Software Engineer",
             "role":"member",
-            "image":"src/yasminsherif.webp",
+            "image":"https://i.ibb.co/JRqPTgss/yasminsherif.webp" ,
             "bio":"تعمل على تطوير موقع شباب",
             "social":{
                 "facebook":"https://www.facebook.com/share/1ZmsMxR8xA/",
