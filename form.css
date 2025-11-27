@@ -1,0 +1,104 @@
+/* Simple background and font */
+body {
+    background: linear-gradient(45deg, #f08c7e, #87baba) ;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Center the main content a little */
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 30px outset transparent;
+}
+
+.glow-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color:  #ffffff;
+    text-shadow: 0 0 8px #e3d7ff, 0 0 12px #87baba;
+}
+
+
+/* Simple header style */
+header {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Basic form styling */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;      /* more rounded */
+    border: 2px solid  #87baba;
+    max-width: 650px;         /* wider card */
+    margin: 30px auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);   /* softer shadow */
+}
+
+
+/* Make every input block have some space */
+.info1,
+.info2,
+.info3,
+.info4 {
+    margin-bottom: 22px;
+}
+
+
+/* Labels look better on their own line */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Basic input/ select styles */
+input[type="text"],
+input[type="file"],
+select {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1.5px solid  #87baba;
+    border-radius: 12px;      
+    background-color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+/* Simple submit button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(45deg, #f08c7e, #87baba);
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background: linear-gradient(45deg,  #87baba);
+}
+
+#thankYouCard {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #87baba;
+    max-width: 650px;
+    margin: 30px auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    font-size: 18px;
+    color: #f08c7e;
+}
